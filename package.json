@@ -1,0 +1,17 @@
+{
+  "name": "v1.paullferguson.com",
+  "description": "The original personal site form 2007 👼",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {}
+}

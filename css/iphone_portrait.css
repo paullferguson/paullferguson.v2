@@ -1,0 +1,253 @@
+/* @override http://paul:8888/css/iphone_portrait.css */
+
+body  
+{  
+    background-color:#222;  
+    margin-top:-0px;  
+    margin-left:-0px;  
+}  
+  
+#wrap  
+{  
+    overflow:auto;  
+    width:320px;  
+    height:480px;
+   	background:url(/images/ibg.jpg);
+    background-repeat:no-repeat;
+    background-color: #141414;
+    padding-bottom: 20px;
+}  
+  
+#header  
+{   
+    height:47px; 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 13px; 
+  	font-family:arial,"san serif";
+  	color: #ddd;
+}    
+  
+#bottom  
+{    
+    height:31px;  
+    margin-top:-5px;  
+}  
+
+
+/* ripped in from original */
+
+* {
+	margin: 0;
+	padding: 0;
+	font: 16px "Gotham Black", Arial, sans-serif;
+	color: #FFF;
+}
+
+img {
+	border: none;
+}
+
+h1 {
+	font-size: 20px;
+}
+body {
+	background-repeat:no-repeat no-repeat;
+	background-color: #222;
+}
+
+/* Content................................................*/
+
+#content p, #content h1, #about ul, #thumbs div {
+	background: #555;
+	-webkit-border-radius: 5px;
+}
+
+#content h1 {
+	padding: 3px 7px;
+	margin-bottom: 40px;
+}
+
+#content p {
+	padding: 5px 8px;
+}
+
+.contentAction {
+	width: 300px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#home, #work, #contact p {
+	
+}
+
+#about ul {
+	width: 290px;
+	padding: 5px;
+	list-style: none;
+}
+#about ul li {
+	padding-bottom: 5px;
+}
+#content a {
+	border-bottom: #ffee00 1px dotted;
+	text-decoration: none;
+}
+
+#content a:hover {
+	border-bottom: #ffee00 1px solid;
+	text-decoration: none;
+}
+
+/*Work Scrollong styling*/
+
+#thumbs div {
+	float: left;
+	width: 300px;
+	height: 330px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+#thumbs div.hover, #thumbs div.hover p {
+	background-color: #4E4E4E;
+}
+
+#thumbs div.active, #thumbs div.active p {
+	background-color: #454545;
+	cursor: default;
+}
+
+div.scrollable {
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+	height: 330px;
+	margin-bottom: 20px;
+}
+
+#thumbs {
+	position: absolute;
+	width: 20000em;
+	clear: both;
+}
+
+#thumbs div ul {
+	padding-left: 25px;
+}
+
+div#work.contentAction div.scrollable #thumbs img {
+	margin: 0px;
+	padding: 0px 45px;
+	width: 210px;
+	overflow: hidden;
+	position: relative;
+}
+
+#work a.prev, #work a.next {
+	font-size: 18px;
+	position: absolute;
+	top:148px;
+	width: 30px;
+	height:140px;
+	line-height: 5.2;
+	font-size: 27px;
+	z-index: 3;
+	text-align: center;
+	background-color: #444;
+	padding: 7px 7px 10px 7px;
+	cursor: pointer;
+	border: none;
+}
+
+#work a:hover.prev, #work a:hover.next {
+	background-color: #333;
+	border-bottom: none;
+}
+
+a.prev {
+	right: 100.%;
+	-webkit-border-top-left-radius: 5px;
+}
+
+a.next {
+	left: 266px;
+	-webkit-border-top-right-radius: 5px;
+}
+
+#thumbs h3, #thumbs p, #thumbs span {
+	margin: 3px;
+}
+
+#thumbs h3 em {
+	font-style: normal;
+	color: yellow;
+}
+
+/*Work Scrollong styling   END*/
+
+/*padding down against work div*/
+
+#home, #about, #contact, #work {
+	padding-top: 1px;
+}
+
+.arrowPos {
+	position: fixed;
+	top: 128px;
+}
+
+.arrowPos img {
+	margin: 0px auto;
+	height: 13px;
+	left: -2px;
+	width: 27px;
+	position: absolute;
+	-webkit-transform: rotate(180deg);
+	z-index: 2;
+}
+
+/* Main Navigation.*/
+
+#mainnav {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-top: 0px;
+	height: 27px;
+	top: 97px;
+	width: 306px;
+	background-color: #FFEE00;
+	position: fixed;
+	list-style-type: none;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 4px;
+	z-index: 3;
+	-webkit-box-shadow: 0px 5px 6px #000
+}
+
+#mainnav li, #mainnav_blog li {
+	width: auto;
+	float: left;
+	cursor: pointer;
+}
+
+#mainnav li a, #mainnav_blog li a {
+	color: #333333;
+	padding-left: 6px;
+	padding-right: 7px;
+	font-size: 20px;
+	letter-spacing: -1px;
+	text-decoration: none;
+}
+
+#mainnav li a:hover, #mainnav_blog li a:hover {
+	color: #111111;
+}
+
+
+
+
+

@@ -1,0 +1,224 @@
+
+@import url("http://cssksw.com/paulferguson");
+
+* {
+	margin: 0;
+	padding: 0;
+	font: 16px "Gotham Black", Arial, sans-serif;
+	color: #FFF;
+}
+
+img {
+	border: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+body {
+	background-repeat:no-repeat no-repeat;
+	background-color: #222;
+}
+
+/* Content................................................*/
+
+#content p, #content h1, #about ul, #thumbs div {
+	background: #555;
+}
+
+#content h1 {
+	padding: 4px 5px;
+}
+
+#content p {
+	padding: 5px;
+}
+
+#content img {
+	margin: 0px auto;
+	height: 13px;
+	width: 27px;
+	top: 450px;
+	position: fixed;
+}
+
+.contentAction {
+	width: 600px;
+	margin-left: -300px;
+	left: 570px;
+	top: 30px;
+	position: fixed;
+	padding: 0 10px;
+}
+
+#home, #work, #contact p {
+	
+}
+
+#about ul {
+	padding: 5px;
+	list-style: none;
+}
+
+#content a {
+	border-bottom: #ffee00 1px dotted;
+	text-decoration: none;
+}
+
+#content a:hover {
+	border-bottom: #ffee00 1px solid;
+	text-decoration: none;
+}
+
+/*Work Scrollong styling*/
+
+#thumbs div {
+	float: left;
+	width: 200px;
+	height: 350px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+#thumbs div.hover, #thumbs div.hover p {
+	background-color: #4E4E4E;
+}
+
+#thumbs div.active, #thumbs div.active p {
+	background-color: #454545;
+	cursor: default;
+}
+
+div.scrollable {
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+	height: 350px;
+}
+
+#thumbs {
+	position: absolute;
+	width: 20000em;
+	clear: both;
+}
+
+#thumbs p {
+	font-size: 13px;
+}
+
+#thumbs div ul {
+	padding-left: 25px;
+}
+
+#thumbs img {
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 200px;
+	position: relative;
+	top: 0px;
+}
+
+#work a.prev, #work a.next {
+	font-size: 18px;
+	position: absolute;
+	top: 30%;
+	background-color: #444;
+	padding: 7px 7px 10px 7px;
+	cursor: pointer;
+	border: none;
+}
+
+#work a:hover.prev, #work a:hover.next {
+	background-color: #333;
+	border-bottom: none;
+}
+
+a.prev {
+	right: 100.5%;
+}
+
+a.next {
+	left: 100.5%;
+}
+
+#thumbs h3, #thumbs p, #thumbs span {
+	margin: 3px;
+}
+
+#thumbs h3 em {
+	font-style: normal;
+	color: yellow;
+}
+
+/*Work Scrollong styling   END*/
+
+/*padding down against work div*/
+
+#home, #about {
+	padding-top: 130px;
+}
+
+#contact {
+	padding-top: 160px;
+}
+
+.arrowPos {
+	left: 0px;
+	position: fixed;
+	bottom: 61px;
+}
+
+/* Main Navigation.*/
+
+#mainnav {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-top: 0px;
+	height: 23px;
+	top: 460px;
+	background-color: #FFEE00;
+	position: fixed;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 2px;
+	z-index: 2;
+}
+
+#mainnav_blog {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-top: 0px;
+	height: 23px;
+	bottom: 40px;
+	background-color: #FFEE00;
+	position: fixed;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 2px;
+	z-index: 2;
+}
+
+#mainnav li, #mainnav_blog li {
+	width: auto;
+	float: left;
+	cursor: pointer;
+}
+
+#mainnav li a, #mainnav_blog li a {
+	color: #333333;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#mainnav li a:hover, #mainnav_blog li a:hover {
+	color: #111111;
+}

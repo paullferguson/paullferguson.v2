@@ -1,0 +1,317 @@
+/* @override http://www.paul-ferguson.co.uk/css/blogstyle.css */
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px "Gotham Black", Arial, sans-serif;
+	color: #FFF;
+}
+
+.narrowcolumn .postmetadata {
+	text-align: right;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+.even, .alt {
+	
+}
+
+.alt a {
+	color: #aaa;
+}
+#wrapper {
+  	overflow-y: scroll;
+  	height: 100%;
+}
+#home {
+	width: 600px;
+	left: 389px;
+	padding: 0px;
+	margin: 0px auto;
+	top: 30px;
+	position: absolute;
+	background: #444;
+}
+
+#home h1 {
+	padding: 4px 0px 4px 5px;
+}
+
+#home h1 a {
+	font-size: 24px;
+}
+
+.navigation {
+	height: 15px;
+	padding: 3px 16px;
+	color: #333333;
+	background-color: #FFEE00;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.navigation a:hover {
+	color: #111111;
+}
+
+.alignright, .alignleft, .alignright a, .alignleft a {
+	text-decoration: none:
+}
+
+.alignright {
+	float: right;
+	color: #333333;
+}
+
+.alignleft {
+	float: left;
+	color: #333333;
+}
+
+.post {
+	background: #555;
+	padding: 0px;
+}
+
+#content_blog {
+	
+}
+
+#content_blog h2 a, #content_blog h3 a, #content_blog h2, #content_blog h3 {
+	font-size: 22px;
+	padding: 3px;
+}
+
+.entry {
+	padding: 10px 15px 10px 15px;
+	overflow: hidden;
+}
+
+.entry p, .entry div {
+	white-space: normal;
+	padding-top: 6px;
+}
+
+.entry p a, .entry div a {
+	text-decoration: none;
+	border-bottom: 1px #ffee00 dotted;
+}
+
+.entry p a:hover, .entry div a:hover, #sidebar a:hover {
+	text-decoration: none;
+	border-bottom: 1px #ffee00 solid;
+}
+
+.entry ol {
+	list-style-type: none;
+	padding-bottom: 18px;
+}
+
+.entry ol p {
+	padding-top: 0px;
+	float: left;
+	padding-right: 2px;
+	background-color: #ffee00;
+}
+
+.entry ol p a, .entry ol p a:visited {
+	color: #333;
+	text-decoration: none;
+	padding: 0 2px;
+	margin: 0px 0px 10px 0px;
+	border-bottom: none;
+}
+
+h2, h3 {
+	background: #333;
+	text-decoration: none;
+	padding-bottom: 3px;
+	padding-top: 1px;
+}
+
+.pagetitle {
+	font-size: 12px;
+	padding: 3px;
+}
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 9px;
+	padding: 3px 3px 3px 9px;
+	line-height: 2.0em;
+	color: #aaa;
+}
+
+.postmetadata {
+	clear: both;
+}
+
+.postmetadata, .postmetadata a, small p, #posttags {
+	color: #aaa;
+	font-size: 12px;
+}
+
+#sidebar {
+	position: absolute;
+	left: -287px;
+	top: 36px;
+	background: #555;
+	width: 270px;
+}
+
+#sidebar p, #sidebar h1, #sidebar h2, #sidebar ul, #sidebar li, #sidebar li a {
+	text-transform: lowercase;
+	color: #aaa;
+}
+
+#sidebar li {
+	list-style: none;
+}
+#sidebar li ul, #sidebar li p {
+		padding: 4px;
+}
+
+#sidebar li li {
+	padding: 1px 2px;
+	list-style: none;
+}
+
+#sidebar .seo-tag-cloud a, .postmetadata #posttags a {
+	background-color: #454545;
+	font-style: normal;
+	margin: 2px 2px;
+	text-decoration: none;
+	padding: 1px 3px 2px 3px;
+}
+#sidebar .seo-tag-cloud a {
+	display: block;
+	float: left;
+}
+
+#sidebar ul li div.seo-tag-cloud {
+	overflow: hidden;
+}
+
+#sidebar .seo-tag-cloud a:hover, .postmetadata #posttags a:hover {
+	background-color: #FFEE00;
+	border-bottom: none;
+	color: #222222;
+}
+
+#sidebar .seo-tag-cloud {
+	padding: 3px;
+}
+
+#sidebar ul.xoxo li {
+	float: left;
+}
+
+#sidebar h2 {
+	font-family: 'Lucida Grande', Verdana, Sans-Serif;
+	font-size: 22px;
+	padding: 3px;
+}
+.toggle {
+	border-bottom: 1px solid #555;
+	cursor: pointer;
+}
+.blind {
+	display: none;
+	position: relative;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+h1, h1 a, h1 a:visited, #headerimg .description {
+	text-decoration: none;
+}
+
+h1 a:hover, h2 a:hover, #home h1 a:hover, a:visited:hover {
+	text-decoration: underline;
+}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+	color: #eee;
+	font-size: 22px;
+}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite, #sidebar a {
+	text-decoration: none;
+}
+
+.entry p a:visited {
+	color: #fff;
+}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #333;
+	border: none;
+	padding: 3px;
+}
+
+#commentform {
+	padding-left: 3px;
+}
+
+#commentform textarea {
+	width: 500px;
+}
+
+#submit {
+	border-top: solid #333 1px;
+	color: #333;
+	padding-top: 5px;
+	background: #FFEE00;
+}
+
+.commentlist {
+	overflow: hidden;
+	width: 583px;
+	white-space: normal;
+}
+
+.commentlist li ul li {
+	font-size: 1em;
+}
+
+.commentlist li {
+	font-weight: bold;
+}
+
+.commentlist li P {
+	padding: 10px;
+	border: solid 1px #666;
+}
+
+#footer ul {
+	height: 15px;
+	padding: 3px;
+	background: #444;
+	list-style-type: none;
+}
+
+#footer li {
+	float: left;
+	padding-right: 20px;
+}
+
+#footer li a img {
+	padding-top: 1px;
+}
+
+#footer li, #footer li a {
+	color: #aaa;
+}
+
+.arrowPosBlog {
+	position: fixed;
+	bottom: 60px;
+	z-index: 1;
+}
